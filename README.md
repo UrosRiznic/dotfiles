@@ -25,4 +25,4 @@
 ## <p align="center">Preview</p>
 
 + **Desktop**
-![screenshot](Pictures/screen1.png)
+![screenshot](https://imgur.com/8TmpGXd)
