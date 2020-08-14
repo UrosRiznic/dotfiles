@@ -1,0 +1,76 @@
+Xft.dpi:       96
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.autohint:  false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+*.foreground:   #f2f2f4
+*.background:   #2f3842
+*.cursorColor:  #f2f2f4
+
+! black
+*.color0:       #2f3842
+*.color8:       #6A777E
+
+! red
+*.color1:       #ec866f
+*.color9:       #ec866f
+
+! green
+*.color2:       #96bb7f
+*.color10:      #96bb7f
+
+! yellow
+*.color3:       #ECC46F
+*.color11:      #ECC46F
+
+! blue
+*.color4:       #6f97ec
+*.color12:      #6f97ec
+
+! magenta
+*.color5:       #ec816f
+*.color13:      #ec816f
+
+! cyan
+*.color6:       #6fd5ec
+*.color14:      #6fd5ec
+
+! white
+*.color7:       #6A777E
+*.color15:      #f2f2f4
+
+
+URxvt.scrollBar: false
+URxvt.lineSpace: 1
+URxvt.internalBorder: 10
+!URxvt.font: xft:jmk Neep:style=Regular:size=8
+!URxvt.boldFont: xft:jmk Neep:style=Bold:size=8
+!URxvt.italicFont: xft:jmk Neep:style=Italic:size=8
+!URxvt.boldItalicFont: xft:jmk Neep:style=Bold Italic:size=8
+URxvt.cursorUnderline: true
+
+URxvt.font:                       9x15,xft:JetBrains Mono
+
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+
+
+
+
+! Normal copy-paste keybindings without perls
+URxvt.iso14755:                   false
+URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+!Xterm escape codes, word by word movement
+URxvt.keysym.Control-Left:        \033[1;5D
+URxvt.keysym.Shift-Control-Left:  \033[1;6D
+URxvt.keysym.Control-Right:       \033[1;5C
+URxvt.keysym.Shift-Control-Right: \033[1;6C
+URxvt.keysym.Control-Up:          \033[1;5A
+URxvt.keysym.Shift-Control-Up:    \033[1;6A
+URxvt.keysym.Control-Down:        \033[1;5B
+URxvt.keysym.Shift-Control-Down:  \033[1;6B
+
