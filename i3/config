@@ -423,7 +423,7 @@ mode "$mode_gaps_outer" {
 
 
 # Pozadina 
-exec_always feh --bg-scale /home/uros/Downloads/pozadina01.png
+exec_always feh --bg-scale /home/uros/Downloads/pozadina02.png
 
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh 
